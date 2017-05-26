@@ -2,8 +2,6 @@ import java.util.Random;
 import java.lang.Math;
 import java.util.ArrayList;
 /**
- * Write a description of class RandomTester here.
- * 
  * @author (Tom Elliott) 
  * @version (Version 1 - October 27th 2016)
  */
