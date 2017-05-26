@@ -22,16 +22,17 @@ public class RandomTester
     }
 
 
-    public int printOneRandom()
+    public int printOneRandom() 
     {
        Random randomTester = new Random(); 
        int value = randomTester.nextInt(10); 
        System.out.println(value);
        return value;
-        }
+    }
     
         
-    public int printMultiRandom(int howMany){
+    public int printMultiRandom(int howMany) 
+    {
         Random randomTester = new Random();
          int count = 1;
         while (count <= howMany) {
