@@ -4,7 +4,7 @@ public class Reverse
 {
     public Reverse()
     {
-        
+        // Nothing to be initialised at creation...
     }
 
     public String reverseString(String x)
