@@ -11,7 +11,7 @@ import java.util.*;
  *  code in the DrawingTool class. I believe this helps maintain loose coupling.
  * 
  * @author (Tom Elliott) 
- * @ 1.0 (23.11.16)
+ * @ 1.0 (29.11.16)
  */
 public class Colours
 {
