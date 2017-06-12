@@ -13,8 +13,7 @@ import java.io.*;
  * If the user deletes all pens that they have created, the program will return to its original state.
  * This means that all commands that the user enters that make use of the pen will return an error message.
  *
- * @author David J. Barnes and Michael Kölling
- *   - Altered by T. Elliott on 2016.11.23
+ * @author T. Elliott on 2016.11.23
  * @version 1.0 2016.11.23
  */
 
