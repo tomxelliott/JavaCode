@@ -5,8 +5,7 @@ import java.awt.Color;
  * and an up/down state. The pen can be moved across the canvas. If the pen is down, it 
  * leaves a line on the canvas when moved. (If it is up, it will not draw a line.)
  * 
- * @author Michael Kölling & David J. Barnes
- *        - Altered by Tom Elliott (24/11/16).
+ * @author Tom Elliott (24/11/16).
  * @version 2016.11.14
  */
 public class Pen
