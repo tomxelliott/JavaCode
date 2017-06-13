@@ -22,8 +22,4 @@ class OverlappingCircles {
     }
     return result;
 }
-
-  public static void main(String[] args){
-    solution(1,1,3,5,5,3);  
-}
 }
