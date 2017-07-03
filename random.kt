@@ -1,3 +1,4 @@
+// Kotlin code...
 // runs the code in the background thread pool
 fun asyncOverlay() = async(CommonPool) {
 // start two async operations
