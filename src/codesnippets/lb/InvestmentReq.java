@@ -2,7 +2,7 @@
  * Created by tomelliott on 28/07/2017.
  */
 public class InvestmentReq {
-
+    
     private String investor;
     private int investmentAmount;
     private String productType;
@@ -103,7 +103,7 @@ public class InvestmentReq {
     }
 
     /**
-     *
+     * Changes the status of whether the investment has been matched or not.
      * @param investmentMatched
      */
     public void setInvestmentMatched(boolean investmentMatched) {
