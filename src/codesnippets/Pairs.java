@@ -15,15 +15,13 @@ class Pairs {
       String resultString = "";
       for(int x = 0; x < a.length; x++){
           for(int y = 0; y < b.length; y++) { 
-        if((a[x] + b[y]) == goalSum && resultString.equals("")) {
-            resultString += a[x] + " " + b[y];
-        } else if((a[x] + b[y]) == goalSum) {
-          resultString += ", " + a[x] + " " + b[y]; 
-        }
+            if((a[x] + b[y]) == goalSum && resultString.equals("")) {
+              resultString += a[x] + " " + b[y];
+            } else if((a[x] + b[y]) == goalSum) {
+              resultString += ", " + a[x] + " " + b[y]; 
+            }
           }
       }
-
-
       if(resultString.equals("")) {
                 return "-1";
       } else {
